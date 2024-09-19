@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-video{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border: solid 5px black;
+}
+header h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 0.2fr 5fr 0.4fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header Header Header Header Header"
+      "Nav Nav Nav Nav Nav"
+      "Main Main Main Main Main"
+      "Footer Footer Footer Footer Footer";
+    
+    background-color: #f3a4a4;
+  }
+  
+  .Header { grid-area: Header; }
+  
+  .Nav { grid-area: Nav; }
+  
+  .Main { grid-area: Main; }
+  
+  .Footer { grid-area: Footer; }
+  
+  
+  .Header { grid-area: Header; }
+  
+  .Nav { grid-area: Nav; }
+  
+  .Main { grid-area: Main; }
+  
+  .Footer { grid-area: Footer; }
+  
+  .Header h1{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 7.5rem;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  .nav{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    
+  }
+  .lista{
+    display: flex;
+    justify-content: space-around;
+    width:100% ;
+}
+.botones{
+    background-color:rgb(216, 98, 113) ;
+   width: 200px;
+   text-align: center;
+   border: solid 2px ;
+   border-radius: 7px;
+}
+.botones:hover{
+    background-color: rgb(170, 39, 72);
+    border: solid 2px rgb(105, 3, 29);
+}
+.dropdown-menu {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(131, 14, 14); 
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgb(39, 37, 37);
+}
+.videozapas1, .videozapas2{
+    width: 700px;
+    height: 394px;
+    box-shadow: 10px 10px 10px 10px ;
+}
+.multimediaindex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.carousel{
+    box-shadow: 10px 10px 10px 10px;
+}
+footer{
+    background-color:#000000 ;
+    margin-top: 30px;
+    z-index: -1;
+}
+footer h3{
+    color: white;
+}
+.tarjetazapas{
+    background-color: rgb(192, 128, 134);
+    width: 450px;
+    height: 520px;
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+    margin-left: 130px;
+    box-shadow: 10px 10px 10px 10px;
+    margin-top: 20px;
+    
+}
+.carouseladidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 290px;
+    max-width: 100%;
+}
+.botoncomprar{
+background-color: green;
+width: 200px;
+height: 60px;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+padding: auto;
+}
+.botoncomprar:hover{
+    background-color: rgb(6, 68, 6);
+    color: white;
+}
+.textoadidas{
+    line-height: 1.2;
+    overflow: scroll;
+    height: 100px;
+}
+.adidastitulo{
+    font-family: "PT Sans Narrow", sans-serif;
+    text-align: center;
+
+}
+.tarjetadidas{
+    margin-top: 20px;
+    background-color: rgb(180, 104, 104);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px;
+}
+.productosadidas{
+    display: flex;
+    flex-direction: row;
+}
+.tituloadidas{
+    text-align: center;
+    font-size: 6rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    box-shadow: 10px 10px 10px 10px;    
+}
+main{
+    height: auto;
+    width: 99vw;
+    padding-bottom: 350px;
+}
+.mainindex{
+    padding-bottom: 0;
+}
+.accordion-body{
+    background-color: #d87676;
+    color: white;
+}
+.parrafonosotros{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    background-color: #d87676;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    box-shadow: 10px 10px 10px 10px;
+}
+.formulario{
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    margin-top: 100px;
+    border: solid 3px black;
+    padding: 30px;
+    background-color: #be8181;
+    box-shadow: 10px 10px 10px 10px;
+   
+}
+.enviarcontacto{
+    text-align: center;
+}
+.maincontacto{
+    padding-bottom: 50px;
+}
+.cuadradodecompra{
+    width: 1300px;
+    height: 90vh;
+    background-color: rgb(207, 195, 198);
+    text-align: center;
+    margin-left: 280px;
+    margin-top: 60px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+}
+.zapascompra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 800px;
+    height: 858px;
+    box-shadow: none;
+    
+}
+.contenidodecompra{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.talle1{
+    background-color: #f3a4a4;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.talle2{
+    background-color: #f3a4a4;
+    margin-right: 10px;
+}
+.talle3{
+    background-color: #f3a4a4;
+    margin-right: 90px;   
+}
+.talle1:hover{
+    background-color: #e5b9b9;
+    color: white
+}
+.talle2:hover{
+    background-color: #e5b9b9;
+    color: white
+}
+.talle3:hover{
+    background-color: #e5b9b9;
+    color: white
+}
+.columnatalles1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+.columnatalles2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+.botondeagregaralcarrito{
+    margin-top: 50px;
+    background-color: black;
+    border-radius: 50px;
+    width: 300px;
+    text-align: center;
+    margin-left: 120px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.botondeagregaralcarrito:hover{
+    background-color: green;
+    color: black;
+}
+.textodebajodelboton{
+    font-style: italic;
+    margin-top: 5px;
+}
+.descripcion{
+    width: 400px;
+    margin-left: 60px;
+    font-size: 1.2rem;
+}
+.titulodescripcion{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    color: #d87676;
+    font-size: 1.3rem;
+}
+.backgroundvideocompra{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -10;
+}
+.linkcomprar{
+    text-decoration: none;
+    color: black;
+}
+.descripcion2{
+    margin-left: 80px;
+}
+.botondeagregaralcarrito2{
+    margin-left: 140px;
+}
+.botoninicio{
+    display: flex;
+    justify-content:center;
+    margin-right: 30px;
+
+}
+.descripcionpuma{
+    margin-left: 140px;
+    margin-top: 0px;
+    font-size: 1.1rem;
+}
+.botondeagregaralcarrito3{
+    margin-left: 190px;
+}
+.descripcionpuma2{
+    margin-left: 110px;
+}
+.botondeagregaralcarrito4{
+    margin-left: 150px;
+}
+.descripcionadidas{
+    margin-left: 80px;
+}
+.descripcionadidas2{
+    margin-left: 50px;
+}
+.botondeagregaralcarrito5{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
